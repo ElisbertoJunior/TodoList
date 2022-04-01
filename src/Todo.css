@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Poppins:wght@300;400;500&family=Righteous&family=Roboto&display=swap');
+.container{
+    margin: auto;
+    max-width: 600px;
+}
+
+* {
+    background: rgb(55, 55, 65);
+    color: azure;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: skyblue;
+    color: white;
+    border-radius: 25px;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(130, 141, 144, 0.274);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hideModal{
+    display: none;
+}
+
+.cardModal{
+    padding: 20px;
+    background-color: rgb(40, 41, 46);
+    border-radius: 10px;
+}
+
+form {
+    background-color: rgb(40, 41, 46);
+    padding: 6px;
+}
+
+input {
+    padding: 5px;
+}
+
+.buttonAdd {
+    background-color: skyblue;
+    border: none;
+    padding: 7px;
+    margin-left: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background: red;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn-status  {
+    background: skyblue;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn-status span {
+    background: skyblue;
+}
